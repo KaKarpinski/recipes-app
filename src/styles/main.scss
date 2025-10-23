@@ -1,0 +1,13 @@
+@import './variables';
+
+.app { // block
+  &__header { // element
+    display: flex;
+  }
+
+  &__list {
+    &--empty { // modifier
+      opacity: 0.6;
+    }
+  }
+}

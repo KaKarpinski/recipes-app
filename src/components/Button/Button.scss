@@ -1,0 +1,66 @@
+@use "@styles/colors" as *;
+
+.btn {
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+  padding: 0.6rem 1.2rem;
+
+  &--fullWidth {
+    width: 100%;
+  }
+
+  &--sm {
+    font-size: 0.85rem;
+    padding: 0.4rem 1rem;
+  }
+
+  &--md {
+    font-size: 1rem;
+  }
+
+  &--lg {
+    font-size: 1.15rem;
+    padding: 0.8rem 1.4rem;
+  }
+
+  &--primary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-tertiary-hover;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+
+  &--text {
+    background-color: none;
+    color: $color-text;
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+  
+  &--secondary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-primary-hover;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+}
