@@ -1,23 +1,27 @@
 $color-white: #fff;
-$color-text: #6d7482;
+$color-black: #000000;
+
+$color-text: #bebebe;
+$color-text-hover: #d1d1d1;
+$color-text-active: #9E9E9E;
+
 $color-primary: #161616;
-// $color-primary-hover: 
+$color-primary-hover: #1f1f1f;
+$color-primary-active: #121212;
 
 $color-secondary: #323232;
-// $color-secondary-hover: #059669;
+$color-secondary-hover: #059669;
 
 $color-tertiary: #EB4C61;
-// $color-tertiary-hover: 
+$color-tertiary-hover: #D33E53;
+$color-tertiary-active: #B73246;
+$color-tertiary-disabled: #F2A6B0;
 
 $color-gray-100: #f3f4f6;
 $color-gray-300: #d1d5db;
 $color-gray-600: #4b5563;
 $color-gray-900: #111827;
 
-$color-white: #ffffff;
-$color-black: #000000;
-
-// Możesz dodać zmienne do użycia jako CSS variables:
 :root {
   --color-primary: #{$color-primary};
   --color-secondary: #{$color-secondary};
