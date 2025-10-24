@@ -16,6 +16,8 @@
       "@lib/*": ["lib/*"],
       "@pages/*": ["pages/*"],
       "@stores/*": ["stores/*"],
+      "@stories/*": ["stories/*"],
+      "@styles/*": ["styles/*"],
       "@core/types/*": ["types/*"]
     },
 
